@@ -1,65 +1,277 @@
-/* /* *{
-    padding: 0;
-    margin: 0;
+*{
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    overflow: hidden;
-} */
-/* .hover{
-    height: 200vh;
-        background-image: linear-gradient(-44.66deg, #2b0a6a 0%, #250a8f 52.2%, #0a0737 100%);
-        border: 2px solid red ;
-        background-size: cover;
-        /* background-repeat: repeat-y; */
-    
-} */ */
-* {
-	width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
-
-.background {
-	background-image: linear-gradient(#000203 0%, #00345E 85%, #004D89 100%);
+.a{
+	/* border: 1px solid red; */
+	/* height: 10vw; */
 }
-
-.illustration {
-	display: block;
-	position: relative;
-	width: auto;
-	height: 90%;
-	margin: 0 auto;
-	top: 50%;
-	transform: translateY(-50%);
-}
-.hove{
-	width:100;
-	height: 100;
-	justify-content: center;
-}
-.hover {
+img{
 	width: 100%;
 	height: 100%;
+}
+.aa
+{
+	display: flex;
+	justify-content: space-between;
+}
+.aaa-logo{
+	margin-left: 7vw;
+	margin-top: 28.6px;
+	width: 95.25px;
+	height:89.05px;
+	/* border: 1px solid red; */
+}
+.aab{
+	width: 45vw;
+	margin-right: 7vw;
+	padding-top: 30px;
+	/* border: 1px red solid; */
+	height:89.05px;
+	margin-top: 28.6px;
+}
+.links
+{
+	display: flex;
+	font: Bold 18px Montserrat;
+	color: #DADADA;
+	justify-content: space-between;
+	list-style: none;
+	
+}
+.hero{
+	/* width:45vw; */
+	margin-left: 6vw;
+	margin-top: 80px;
+	/* border: 1px red solid; */
+}
+.hero_e{
+	font-weight: 500px;
+	font-size: 100px;
+	color: #E54B10;
+	font-family: 'Montserrat';
+}
+.hero_d{
+	font-weight: 500px;
+	font-size: 100px;
+	color: white;
+	font-family: 'Montserrat';
+}
+.hero_u{
+	font-weight: 500px;
+	font-size: 100px;
+	color: #2CAC34;
+	font-family: 'Montserrat';
+}
+.hero_thon
+{
+	font-weight: 500px;
+	font-size: 100px;
+	color: white;
+	font-family: 'Montserrat';
+}
+.background {
+	background-image: linear-gradient(-44.66deg, #2b0a6a 0%, #250a8f 52.2%, #0a0737 100%);
+}
+.b{
+	display: flex;
+	justify-content: space-between;
+}
+.detail{
+	display: flex;
+	justify-content: space-between;
+}
+.location{
+	color: #DADADA;
+	font: Bold 22px Montserrat;
+letter-spacing: 0px;
+	padding-top: 8px;
+}
+.time{
+	color: #DADADA;
+	font: Bold 22px Montserrat;
+letter-spacing: 0px;
+padding-top: 8px;
+}
+.starts{
+	color: #DADADA;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	/* padding: 2vh 20px; */
+	padding-top:24px;
+	font-weight: 400;
+}
+.timer{
+	margin-top:20px;
+}
+.hour{
+	display: inline-block;
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	width: 40px;
+	height:40px;
+	color: #ffffff;
+	font-size: 30px;
+	margin:0 4px;
+	font-family: 'Montserrat';
+	text-align: center;
+}
+.min{
+	display: inline-block;
+	width: 40px;
+	height:40px;
+	border: 1px solid white;
+	border-radius: 8px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat';
+	margin:0px  4px;
+	text-align: center;
+}
+.h{
+color: white;
+font-family: 'Montserrat';
+}
+.m{
+color: white;
+font-family: 'Montserrat';
+}
+.reg{
+	margin-top: 40px;
+	width: 275px;
+height: 50px;
+display: flex;
+border: 2px solid #FFFFFF;
+	border-radius: 6px;
+	box-shadow: 1px 3px 3px #00000063;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-weight: 800;
+	font-size: 22px;
+	font-family: 'Montserrat';
+	background: #CFC2C21F 0% 0% no-repeat padding-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* isometric animation */ 
+/* isometric animation */ 
+/* isometric animation */ 
+/* isometric animation */ 
+.hove
+{
+	/* width:41vw; */
+	margin-right:7vw ;
+	/* border: 2px solid red; */
+}
+.hover 
+{
 	animation: hover 3s ease-in-out infinite;
     animation-fill-mode: forwards;
     
 }
-#numbers{
-    position: relative;
-}
-
- #number-one {
-    position: relative;
+ #number-one 
+ {
 	transform: translateY(-10px) translateZ(0);
 	opacity: 0;
 	animation: fadeNumberDown-10 2797ms ease-in-out infinite;
 	animation-fill-mode: forwards;
 }
 
-#number-two {
-    position: relative;
+#number-two 
+{
 	transform: translateY(-20px) translateZ(0);
 	opacity: 0;
 	animation: fadeNumberDown-20 1573ms ease-in-out infinite;
@@ -67,7 +279,8 @@
 	animation-fill-mode: forwards;
 } 
  
-#number-three {
+#number-three 
+{
 	transform: translateY(-30px) translateZ(0);
 	opacity: 0;
 	animation: fadeNumberDown-30 3276ms ease-in-out infinite;
@@ -75,7 +288,8 @@
 	animation-fill-mode: forwards;
 }
 
-#number-four {
+#number-four 
+{
 	transform: translateY(-50px) translateZ(0);
 	opacity: 0;
 	animation: fadeNumberDown-50 3039ms ease-in-out infinite;
@@ -83,7 +297,8 @@
 	animation-fill-mode: forwards;
 }
 
-#number-five {
+#number-five 
+{
 	transform: translateY(-10px) translateZ(0);
 	opacity: 1;
 	animation: fadeNumberDown-60 3814ms ease-in-out infinite;
@@ -91,7 +306,8 @@
 	animation-fill-mode: forwards;
 }
 
-#number-six {
+#number-six 
+{
 	transform: translateY(-30px) translateZ(0);
 	opacity: 0;
 	animation: fadeNumberDown-70 4164ms ease-in-out infinite;
@@ -99,7 +315,8 @@
 	animation-fill-mode: forwards;
 }
 
-#number-seven {
+#number-seven 
+{
 	transform: translateY(-80px) translateZ(0);
 	opacity: 0;
 	animation: fadeNumberDown-80 2096ms ease-in-out infinite;
